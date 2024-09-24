@@ -9,7 +9,7 @@ export default function Socialicons() {
         <li className="px-4 w-[160px] h-[60px] flex justify-between items-center bg-blue-500 text-white ml-[-100px] hover:ml-[-10px] duration-300">
           <a
             className="flex justify-between items-center w-full"
-            href="#"
+            href="https://www.linkedin.com/in/asfer-ali/"
             target="_blank"
           >
             LinkedIn <FaLinkedin size={30} />
