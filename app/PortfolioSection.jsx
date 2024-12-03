@@ -22,8 +22,8 @@ export default function PortfolioSection() {
             <div
               className={
                 project.id % 2 == 0
-                  ? "flex flex-row-reverse gap-8"
-                  : "flex gap-8"
+                  ? "flex flex-col md:flex-row-reverse gap-8"
+                  : "flex flex-col md:flex-row gap-8"
               }
             >
               <div className="rounded-lg ring-2 overflow-hidden aspect-[1] shadow-lg relative">
@@ -42,25 +42,19 @@ export default function PortfolioSection() {
                 <h2
                   className={
                     project.id % 2 == 0
-                      ? "text-3xl font-semibold text-right"
+                      ? "text-3xl font-semibold text-center md:text-right"
                       : "text-3xl font-semibold"
                   }
                 >
                   {project.title}
                 </h2>
-                <p
-                  className={
-                    project.id % 2 == 0
-                      ? "font-medium text-lg text-justify md:text-justify"
-                      : "font-medium text-lg text-justify md:text-justify"
-                  }
-                >
+                <p className={"font-medium text-lg text-justify"}>
                   {project.description}
                 </p>
                 <p
                   className={
                     project.id % 2 == 0
-                      ? "font-semibold text-xl text-right"
+                      ? "font-semibold text-xl text-center md:text-right"
                       : "font-semibold text-xl"
                   }
                 >

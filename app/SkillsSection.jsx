@@ -63,7 +63,7 @@ export default function SkillsSection() {
             <div className="h-full w-full flex justify-center items-center">
               <Image src={tool.image} width={100} height={100} />
             </div>
-            <p className="text-lg font-medium text-neutral-700 text-center">
+            <p className="text-lg font-medium text-neutral-700 text-center w-[100px]">
               {tool.name}
             </p>
           </div>
