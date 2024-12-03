@@ -35,12 +35,17 @@ export default function AboutSection() {
           inverted={true}
         />
         <p className="text-xl font-medium text-center md:text-left relative">
-          I am a creative developer specialized in Web Development and excited
+          I’m a creative full-stack developer focused on building purpose-driven
+          web applications. I transform ideas into functional, user-friendly
+          apps, tailoring features to meet business needs. By optimizing both
+          design and performance, I create engaging, scalable solutions that
+          help businesses grow.
+          {/* I am a creative developer specialized in Web Development and excited
           about creating stunning websites. My expertise lies in translating
           designs into fully funcional websites while utilizing my development
           skills enhance and customize their features. My goal is to craft
           visually appealing, user-friendly and optimized websites that will
-          help you grow your business.
+          help you grow your business. */}
         </p>
         <div className="font-medium text-xl grid md:grid-cols-2 gap-8 w-full items-start text-center md:text-left relative">
           <div>

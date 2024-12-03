@@ -65,7 +65,7 @@ export default function HeroSection() {
         <div className="photo md:pt-8 flex justify-center md:justify-start md:pl-16 items-center relative">
           <img
             className="w-[60%] max-w-[500px] rounded-[10rem]"
-            src="https://asferali-portfolio.s3.eu-north-1.amazonaws.com/IMG_6298-min.jpeg"
+            src="https://asferali-portfolio.s3.eu-north-1.amazonaws.com/IMG_4654-Photoroom.jpg"
             alt="asfer-ali"
           />
           <div className="absolute top-[-3%] md:top-2 left-[19%] md:left-10 w-[55%] h-[115%] max-h-[550px] border-[5px] border-sky-600 rounded-[12rem]"></div>

@@ -7,6 +7,11 @@ import nextLogo from "@/public/assets/technical-tools/next_logo.png";
 import tailwindLogo from "@/public/assets/technical-tools/tailwind_logo.png";
 import bootstrapLogo from "@/public/assets/technical-tools/bootstrap_logo.png";
 import mongodbLogo from "@/public/assets/technical-tools/mongodb_logo.png";
+import typescriptLogo from "@/public/assets/technical-tools/typescript-logo.png";
+import nodejsLogo from "@/public/assets/technical-tools/nodejs-logo.png";
+import gitLogo from "@/public/assets/technical-tools/git-logo.png";
+import awsLogo from "@/public/assets/technical-tools/aws-logo.png";
+import apiIntegrationLogo from "@/public/assets/technical-tools/api-integration-logo.png";
 import Image from "next/image";
 
 import iconTwoLines from "@/public/assets/bgicons-blue-600/undraw_two-lines.svg";
@@ -18,9 +23,14 @@ export default function SkillsSection() {
     { name: "Javascript", image: javascriptLogo },
     { name: "React.js", image: reactLogo },
     { name: "Next.js", image: nextLogo },
+    { name: "Typescript", image: typescriptLogo },
+    { name: "Node.js", image: nodejsLogo },
     { name: "Tailwind CSS", image: tailwindLogo },
-    { name: "Bootstrap", image: bootstrapLogo },
     { name: "MongoDB", image: mongodbLogo },
+    { name: "Git & Github", image: gitLogo },
+    { name: "AWS", image: awsLogo },
+    { name: "API Integration", image: apiIntegrationLogo },
+    { name: "Bootstrap", image: bootstrapLogo },
   ];
 
   return (

@@ -36,7 +36,7 @@ export default function Footer() {
           </Link>
         </div>
         <div>
-          All Rights Reserved © 2023{" "}
+          All Rights Reserved © 2024{" "}
           <span className="font-semibold">Asfer Ali</span>
         </div>
       </div>
